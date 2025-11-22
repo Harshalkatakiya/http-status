@@ -132,5 +132,5 @@ This project is licensed under the MIT License.
 
 ### Harshal Katakiya
 
-- Website: [https://github.com/Harshalkatakiya](https://github.com/Harshalkatakiya)
+- Github: [https://github.com/Harshalkatakiya](https://github.com/Harshalkatakiya)
 - Email: <katakiyaharshl001@gmail.com>
