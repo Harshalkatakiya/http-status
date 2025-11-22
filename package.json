@@ -1,0 +1,65 @@
+{
+    "name": "@harshalkatakiya/http-status",
+    "version": "1.0.1",
+    "type": "module",
+    "description": "A comprehensive collection of HTTP status codes and their standard phrases.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        "./codes": {
+            "import": "./dist/codes/index.js",
+            "types": "./dist/codes/index.d.ts"
+        },
+        "./phrases": {
+            "import": "./dist/phrases/index.js",
+            "types": "./dist/phrases/index.d.ts"
+        },
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "release": "tsc && npm version patch && npm publish --access public --tag latest"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^5.9.2"
+    },
+    "packageManager": "bun@1.2.23",
+    "license": "MIT",
+    "homepage": "https://www.npmjs.com/package/@harshalkatakiya/http-status",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Harshalkatakiya/http-status.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Harshalkatakiya/http-status/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "author": {
+        "name": "Harshal Katakiya",
+        "email": "katakiyaharshl001@gmail.com",
+        "url": "https://github.com/Harshalkatakiya"
+    },
+    "keywords": [
+        "HTTP Status Codes",
+        "HTTP Status Phrases",
+        "HTTP Status Messages",
+        "HTTP Status Definitions",
+        "HTTP Status Descriptions",
+        "HTTP Status List",
+        "HTTP Status Codes Collection",
+        "HTTP Status Reference",
+        "HTTP Status Utility"
+    ]
+}
