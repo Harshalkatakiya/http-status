@@ -1,6 +1,6 @@
 {
     "name": "@harshalkatakiya/http-status",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "description": "A comprehensive collection of HTTP status codes and their standard phrases.",
     "main": "./dist/index.js",
