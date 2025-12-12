@@ -26,9 +26,9 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "typescript": "^5.9.2"
+        "typescript": "^5.9.3"
     },
-    "packageManager": "bun@1.2.23",
+    "packageManager": "bun@1.3.4",
     "license": "MIT",
     "homepage": "https://www.npmjs.com/package/@harshalkatakiya/http-status",
     "repository": {
